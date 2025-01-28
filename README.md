@@ -1,18 +1,21 @@
-## Getting Started
+# Student Grade Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
+This project is a Java application that calculates student grades based on user input. It provides a simple interface for entering marks and computes the corresponding grades.
 
-## Folder Structure
+## Usage Instructions
+1. Compile the Java files using the following command:
+   ```
+   javac *.java
+   ```
+2. Run the application with:
+   ```
+   java StudentGradeCalculator
+   ```
 
-The workspace contains two folders by default, where:
+## Examples
+- Input: 85
+- Output: Grade: A
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## License
+This project is licensed under the MIT License.
